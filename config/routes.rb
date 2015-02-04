@@ -54,8 +54,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  get '/contacts/new', to: redirect('/contacts/mew')
-  get 'contacts/mew' => 'contacts#mew'
+  get '/contacts/new', to: redirect('/contacts/new')
+  get 'contacts/new' => 'contacts#new'
   resources :contacts
 
 end

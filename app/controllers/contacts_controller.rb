@@ -8,7 +8,7 @@ class ContactsController < ApplicationController
   def show
   end
 
-  def mew
+  def new
     @contact = Contact.new
   end
 
